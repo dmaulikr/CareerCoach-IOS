@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>Adres</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>TMA Loopbaanadvies: Vacatures en Loopbaanadvies op je mobiel! Bij het zoeken naar een baan is er één gemene deler: het draait om beroepen en vacatures. Nu eenvoudig alle vacatures zoeken en gratis loopbaanadvies krijgen met de grootste banen zoekmachines ter wereld inside. Wij doorzoeken vele duizenden vacaturesites en vacature websites van bedrijven, zodat jij dat niet meer hoeft te doen. Mocht je zoeken naar een nieuwe loopbaan?
+            TMA Loopbaan Advies geeft voor 5000+ meest voorkomende beroepen advies en inzage in (of informatie over) benodigde competenties en taakeisen en vervolgens direct voor jouw interessante vacatures in je eigen woonplaats! Waar wacht je nog op? Het is gratis!</string></dict>
+        <key>Email</key><dict><key>value</key><string>E-mail</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>Volg ons op</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>Telefoon</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>TMA Methode</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+        <key>Website</key><dict><key>value</key><string>Web</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>Settings</string></dict>
+        <key>app_name</key><dict><key>value</key><string>Career Coach</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>Loopbaanadvies</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Wat kan ik?</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>Vind Job!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>Contact</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>Media</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>Verander taal</string></dict>
+        <key>contactText</key><dict><key>value</key><string>De TMA Methode is de geïntegreerde systematiek voor selectie en ontwikkeling van medewerkers waarbij talenten en competenties centraal staan. TMA Methode wordt aangeboden als online service en gebruikt voor competentie- en talentmanagement, 360 graden feedback, inrichten loopbaancentra, assessments, TMA Talentenanalyses, MD trajecten, mobiliteitsvraagstukken, beoordeling, beroepskeuze en selectiegesprekken.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>Loopbaanadvies</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Wat kan ik?</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>Contact</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>Vind Job!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>Kaart</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>Media</string></dict>
+        <key>Store info</key><dict><key>value</key><string></string></dict>
+    </dict>
+</plist>

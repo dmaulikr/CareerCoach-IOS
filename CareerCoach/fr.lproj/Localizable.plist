@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>Adresse</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>L'entraînement TMA de carrière: le conseiller en carrière et en travail dans votre portable Lorsque vous cherchez un travail, il y a un facteur décisif commun: il concerne des professions et des emplois . Vous pouvez maintenant rechercher facilement tous les emplois et obtenir des conseils de carrière gratuit avec l'aide des plus grands moteurs de recherche d'emploi dans le monde entier. Nous recherchons à travers des milliers de sites d'emploi et les conseils d'emploi des entreprises et ainsi vous n'avez pas besoin de le faire. Etes-vous à la recherche du nouvel emploi? L'entraînement TMA de carrière vous donne des conseils concernant 5000+ professions les plus courantes et vous donne accès aux compétences requises (ou des informations sur eux) et les demandes d'emploi. Puis on vous redirige aux emplois intéressants dans votre ville natale! Qu'est-ce que vous attendez donc? C'est gratuit!</string></dict>
+        <key>Email</key><dict><key>value</key><string>E-mail</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>Suivez-nous sur</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>Téléphone</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>TMA Méthode</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+        <key>Website</key><dict><key>value</key><string>Site</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>Réglages</string></dict>
+        <key>app_name</key><dict><key>value</key><string>Entraîneur de carrière</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>Сonseiller en carrière</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Bibliothèque de compétences</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>Trouver le travail!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>Contact</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>Médias</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>Modifier la langue</string></dict>
+        <key>contactText</key><dict><key>value</key><string>TMA Méthode est un système intégré pour la sélection et le développement des employés avec les talents et les compétences comme la clé. TMA Méthode est un service en ligne, utilisé pour la compétence et la gestion des talents, le feedback à 360 degrés, la création de centres de carrière, les évaluations, les évaluations TMA des talents, les trajectoires MD, les problèmes de mobilité, les discussions, la carrière et les entretiens d'embauche.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>Сonseiller en carrière</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Bibliothèque de compétences</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>Contact</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>Trouver le travail!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>Carte</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>Médias</string></dict>
+        <key>Store info</key><dict><key>value</key><string></string></dict>
+    </dict>
+</plist>

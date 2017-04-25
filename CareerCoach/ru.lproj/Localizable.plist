@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>Адрес</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>Карьерный менеджер ТМА: консультант по вакансиям и карьере в Вашем телефоне! При поиске работы существует один общий решающий фактор: профессия и вакансии. Теперь Вы можете легко искать работу и получить бесплатную консультацию относительно карьеры при помощи самых крупных поисковых систем в мире. Мы просматриваем тысячи сайтов и объявлений о вакансиях, поэтому Вам не нужно этого делать. Ищете работу? Карьерный менеджер ТМА проконсультирует Вас по 5000 вакансий, даст информацию о требуемых компетенциях и должностных обязанностях, а затем покажет самые интересные предложения в Вашем городе!</string></dict>
+        <key>Email</key><dict><key>value</key><string>Электронная почта</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>Подпишитесь на нас в</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>Телефон</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>Метод ТМА</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+        <key>Website</key><dict><key>value</key><string>Сайт</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>Настройки</string></dict>
+        <key>app_name</key><dict><key>value</key><string>Карьерный менеджер</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>Рекомендации</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Библиотека компетенций</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>Найти работу!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>Контакты</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>Информация</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>Медиа</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>Изменить язык</string></dict>
+        <key>contactText</key><dict><key>value</key><string>Метод ТМА – это интегрированная система для подбора и развития сотрудников, в которой таланты и навыки являются ключевой составляющей. Метод ТМА доступен в форме онлайн-сервиса и используется для управления талантами и компетенциями, обратной связи 360 градусов, образованию карьерных центров, оценок, Оценки талантов ТМА, построения траекторий развития менеджмента, в вопросах мобильности, обсуждениях, а также для собеседований.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>Информация</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>Рекомендации</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Библиотека компетенций</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>Контакты</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>Найти работу!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>Карта</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>Медиа</string></dict>
+        <key>Store info</key><dict><key>value</key><string></string></dict>
+    </dict>
+</plist>

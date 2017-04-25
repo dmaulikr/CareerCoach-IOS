@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>Adres</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>Coach kariery TMA: doradca do spraw kariery i pracy teraz w Twoim telefonie! Podczas szukania pracy powstae pewiwn faktor decyzyjny: chodzi o profesje i o miejsca pracy. Teraz możesz z łatwością szukać we wszystkich ofertach pracy i otrzymać darmowe doradztwo w sprawie kariery dzięki największej wyszukiwarce posad na świecie. Wybieramy dla Ciebie pasujące oferty spośród tysięcy stron z ogłoszeniami o pracę, byś Ty nie musiał tego robić. Szukasz nowej pracy?Coach kariery TMA służy poradą w ponad 5000 najczęstszych zawodach i informuje, lub też daje dostęp do potrzebnych kwalifikacji i przekierowuje do strony z ofertą pracy w Twoim mieście! Na co czekasz?To nic nie kosztuje!</string></dict>
+        <key>Email</key><dict><key>value</key><string>Email</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>Śledź nas na</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>Telefon</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>Metoda TMA</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+        <key>Website</key><dict><key>value</key><string>Strona internetowa</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>Ustawienia</string></dict>
+        <key>app_name</key><dict><key>value</key><string>Coach kariery</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>Doradztwo do spraw kariery</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Biblioteka kompetencji</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>Znajdź pracę!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>Media</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>Zmień język</string></dict>
+        <key>contactText</key><dict><key>value</key><string>Metoda TMA to zintegrowany system służący do selekcji i rozwoju zatrudnionych, gdzie talenty i umiejętności są kluczem do sukcesu. Metoda ta oferowana jest w postaci serwisu online do zarządzania kompetencjami i talentami, w połączniu z feedbackiem 360 stopni, tworzeniem centrów kariery, ocenianiem, oceną talentu TMA, przebiegiem MD, rozwiązywaniem problemow związanych z mobilnością, dyskusjami, rozmowami kwalifikacyjnymi.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>Doradztwo do spraw kariery</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Biblioteka kompetencji</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>Znajdź pracę!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>Mapa</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>Media</string></dict>
+        <key>Store info</key><dict><key>value</key><string></string></dict>
+    </dict>
+</plist>

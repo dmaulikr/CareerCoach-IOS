@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>العنوان</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>المستشار الوظيفي في TMA : هو بمثابة مرشد وظيفي ومهني في هاتفك! فعند البحث عن وظيفة، فأن هناك عامل حاسم مشترك واحد: يدور حول المهن والوظائف. لقد أصبح بإمكانك في الوقت الحاضر البحث وبمنتهى السهولة عن جميع الوظائف والحصول على مشورة مهنية مجانا وذلك بمساعدة من أكبر محركات البحث عن الوظائف في العالم في داخل هاتفك. إننا نبحث في الآف مواقع التوظيف وشركات التوظيف بما يكفيك البحث عن ذلك. هل تبحث عن وظيفة جديدة؟ المستشار الوظيفي في TMA يوفر لك المشورة عن 5000 أو يزيد عن الوظائف والمهن الأكثر شيوعا ويتيح لك الوصول إلى (أو معلومات عن ) الكفاءات أو الجدارات والمتطلبات الوظيفية اللازمة ومن ثم يعيد توجيهك للوظيفة محل اهتمامك في بلدك ! ما الذي تنتظره ؟ إنه مجاني! من TMA</string></dict>
+        <key>Email</key><dict><key>value</key><string>بريد إليكتروني</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>متابعتنا على</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>متابعتنا على لينكد إن</string></dict>
+        <key>Phone</key><dict><key>value</key><string>هاتف</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>منهجية TMA</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>تويتر</string></dict>
+        <key>Website</key><dict><key>value</key><string>موقع إليكتروني</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>إعدادات</string></dict>
+        <key>app_name</key><dict><key>value</key><string>المستشار الوظيفي</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>مشورة وظيفية</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>مكتبة الجدارات</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>تبحث عن وظيفة!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>الاتصال على</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>فيسبوك</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>معلومات الاتصال والتواصل</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>لينكد إن</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>وسائل الاتصال</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>تغيير اللغة</string></dict>
+        <key>contactText</key><dict><key>value</key><string>منهجية TMA هي نظام متكامل لاختيار وتطوير الموظفين بناء على المهارات والمواهب. تعرض هذه المنهجية خدمات الكترونية لادارة المواهب والكفاءات ، تقييمات التغذية الراجعة 360 درجة ، بناء مراكز التوظيف المهني ، تقييمات المواهب TMA ، التنقل الوظيفي ، المناقشات ، مقابلات مهنية ووظيفية.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>معلومات الاتصال والتواصل</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>مشورة وظيفية</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>مكتبة الجدارات</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>جهة الاتصال</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>تبحث عن وظيفة!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>خريطة</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>وسائل الاتصال</string></dict>
+        <key>Store info</key><dict><key>value</key><string></string></dict>
+
+    </dict>
+</plist>

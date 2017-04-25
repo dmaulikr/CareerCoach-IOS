@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>Adresse</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>TMA Karrierecoach: job- og karriererådgiver i din mobil! Når man leder efter job, er der en fælles afgørende faktor: det handler om professioner og stillinger. Nu er det nemt for dig at søge jobs og få gratis karriererådgivning med en af verdens største værktøjer til jobsøgning. Vi søger på tusindvis af hjemmesider og følger virksomheders jobopslag så du behøver ikke gøre det selv. Leder du efter et nyt job? TMA Karrierecoach tilbyder råd om 5000+ mest populære stillinger og giver dig adgang til (og information om) de krævede kompetencer og efterspørgsel for at videresende dig til jobs i din hjemby som kan være interessante for dig! Hvad venter du på? Det er gratis!</string></dict>
+        <key>Email</key><dict><key>value</key><string>E-mail</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>Følg os på</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>Telefon</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>TMA-metode</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+        <key>Website</key><dict><key>value</key><string>Hjemmeside</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>Indstillinger</string></dict>
+        <key>app_name</key><dict><key>value</key><string>Karrierecoach</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>Karriereråd</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Kompetencebibliotek</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>Find Job!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>Medier</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>Skift sprog</string></dict>
+        <key>contactText</key><dict><key>value</key><string>TMA-metode er et integreret system for udvælgelse og udvikling af medarbejdere hvor talenter og færdigheder er nøglebegreber. TMA-metode tilbydes som online service og bruges til kompetence- og talentmanagement, 360 graders feedback, oprettelse af karrierecentre, evalueringer, TMA-talentanalyser, MD baner, mobilitet, diskussioner, karriere- og jobsamtaler.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>Karriereråd</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Kompetencebibliotek</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>Find Job!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>Kort</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>Medier</string></dict>
+        <key>Store info</key><dict><key>value</key><string>Find dine bedste karriererådgivning, real time job og job interview spørgsmål.</string></dict>
+    </dict>
+</plist>

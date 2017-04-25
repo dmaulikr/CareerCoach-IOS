@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>地址</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>TMA职业辅导：你手机的工作和职业顾问！ 当寻找工作时，有一个共同的决定因素：职业和空额。 您现在可以轻松搜索所有的空额，并获得免费职业建议使用世界上最大找工作的工具。 我们搜索成千上万找工作的网站和公司的招聘启事，所以你不需要做这些行动。 寻找一份新工作吗？ TMA职业辅导提供关于5000+最常见职业的建议，并让你看（或得到消息关于）所需的能力和工作要求，然后重定向到你城市的有趣工作！ 你等什么？ 这是免费的！</string></dict>
+        <key>Email</key><dict><key>value</key><string>电子邮件</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>跟随我们在</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>电话</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>TMA方法</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>推特</string></dict>
+        <key>Website</key><dict><key>value</key><string>网站</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>设置</string></dict>
+        <key>app_name</key><dict><key>value</key><string>职业辅导</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>职业建议</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>能力收藏</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>找到工作！</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>联系</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>信息</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>媒体</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>改变语言</string></dict>
+        <key>contactText</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string></string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string></string></dict>
+        <key>Store info</key><dict><key>value</key><string></string></dict>    
+    </dict>
+</plist>
