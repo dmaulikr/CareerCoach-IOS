@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppInfo</key>
+	<dict>
+		<key>value</key>
+		<string>مكتبة كفاءات TMA: لك حرية استخدام قائمة كفاءات TMA من بين 53 كفاءة للاستخدام غير التجاري داخل شركتك.</string>
+	</dict>
+	<key>Email</key>
+	<dict>
+		<key>value</key>
+		<string>البريد الإلبيكتروني</string>
+	</dict>
+	<key>FollowUsOn</key>
+	<dict>
+		<key>value</key>
+		<string>تابعونا على</string>
+	</dict>
+	<key>Linkedin</key>
+	<dict>
+		<key>value</key>
+		<string>لينكد إن</string>
+	</dict>
+	<key>Phone</key>
+	<dict>
+		<key>value</key>
+		<string>تليفون</string>
+	</dict>
+	<key>TMAMethode</key>
+	<dict>
+		<key>value</key>
+		<string>منهجية TMA</string>
+	</dict>
+	<key>Twitter</key>
+	<dict>
+		<key>value</key>
+		<string>تويتر</string>
+	</dict>
+	<key>Website</key>
+	<dict>
+		<key>value</key>
+		<string>موقع إليكتروني</string>
+	</dict>
+	<key>action_settings</key>
+	<dict>
+		<key>value</key>
+		<string>الإعدادات</string>
+	</dict>
+	<key>app_name</key>
+	<dict>
+		<key>value</key>
+		<string>مكتبة كفاءات TMA</string>
+	</dict>
+	<key>btnCareerAdvice</key>
+	<dict>
+		<key>value</key>
+		<string>المشورة المهنية</string>
+	</dict>
+	<key>btnCompetencyLibrary</key>
+	<dict>
+		<key>value</key>
+		<string>مكتبة كفاءات TMA</string>
+	</dict>
+	<key>btnJobFinder</key>
+	<dict>
+		<key>value</key>
+		<string>تبحث عن عمل!</string>
+	</dict>
+	<key>btn_contact</key>
+	<dict>
+		<key>value</key>
+		<string>الاتصال على</string>
+	</dict>
+	<key>btn_facebook</key>
+	<dict>
+		<key>value</key>
+		<string>الفيسبوك</string>
+	</dict>
+	<key>btn_info</key>
+	<dict>
+		<key>value</key>
+		<string>معلومات الاتصال والتواصل</string>
+	</dict>
+	<key>btn_linkedin</key>
+	<dict>
+		<key>value</key>
+		<string>لينكد إن</string>
+	</dict>
+	<key>btn_media</key>
+	<dict>
+		<key>value</key>
+		<string>وسائل الاتصال</string>
+	</dict>
+	<key>changeLanguage</key>
+	<dict>
+		<key>value</key>
+		<string>تغيير اللغة</string>
+	</dict>
+	<key>contactText</key>
+	<dict>
+		<key>value</key>
+		<string>تساعد منهجية TMA وعلى أساس سنوي أكثر من 75،000 شخص على تطوير مواهبهم وتمدهم بنظرة جديدة نحو حياتهم المهنية من خلال فهم مواهبهم وقدراتهم.
+        
+        إن منهجية TMA عبارة عن نظام متكامل للاختيار والتطوير والتدريب وتصدر من هولندا في 10 لغات.
+        
+        إن منهجية TMA عبارة عن نظام متكامل لتقييم وإدارة وتطوير المواهب، وإدارة المواهب، وتقديم المشورة المهنية، وإدارة الكفاءات وتغذية راجعة بدرجة 360 درجة لكل من الفرق والأفراد.</string>
+	</dict>
+	<key>title_activity_app_info</key>
+	<dict>
+		<key>value</key>
+		<string>معلومات الاتصال والتواصل</string>
+	</dict>
+	<key>title_activity_careerAdvice</key>
+	<dict>
+		<key>value</key>
+		<string>المشورة المهنية</string>
+	</dict>
+	<key>title_activity_competencyLibrary</key>
+	<dict>
+		<key>value</key>
+		<string>مكتبة الكفاءات</string>
+	</dict>
+	<key>title_activity_contact</key>
+	<dict>
+		<key>value</key>
+		<string>الاتصال على</string>
+	</dict>
+	<key>title_activity_facebook</key>
+	<dict>
+		<key>value</key>
+		<string>الفيسبوك</string>
+	</dict>
+	<key>title_activity_jobFinder</key>
+	<dict>
+		<key>value</key>
+		<string>تبحث عن عمل!</string>
+	</dict>
+	<key>title_activity_maps</key>
+	<dict>
+		<key>value</key>
+		<string>الخريطة</string>
+	</dict>
+	<key>title_activity_media</key>
+	<dict>
+		<key>value</key>
+		<string>وسائل الاتصال</string>
+	</dict>
+</dict>
+</plist>

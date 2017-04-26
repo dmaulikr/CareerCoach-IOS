@@ -8,22 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		9166AB711EADB68800F5C8CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166AB701EADB68800F5C8CB /* AppDelegate.swift */; };
-		9166AB731EADB68800F5C8CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9166AB721EADB68800F5C8CB /* ViewController.swift */; };
 		9166AB761EADB68800F5C8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9166AB741EADB68800F5C8CB /* Main.storyboard */; };
 		9166AB791EADB68800F5C8CB /* CareerCoach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9166AB771EADB68800F5C8CB /* CareerCoach.xcdatamodeld */; };
 		9166AB7B1EADB68800F5C8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9166AB7A1EADB68800F5C8CB /* Assets.xcassets */; };
 		9166AB7E1EADB68800F5C8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9166AB7C1EADB68800F5C8CB /* LaunchScreen.storyboard */; };
+		E629D6521EB04DF300333F03 /* LanguageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6511EB04DF300333F03 /* LanguageService.swift */; };
+		E629D6571EB04E0E00333F03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6531EB04E0E00333F03 /* Constants.swift */; };
+		E629D6581EB04E0E00333F03 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6541EB04E0E00333F03 /* GlobalFunctions.swift */; };
+		E629D6591EB04E0E00333F03 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6551EB04E0E00333F03 /* LocalizableStrings.swift */; };
+		E629D65A1EB04E0E00333F03 /* UserPreferencesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6561EB04E0E00333F03 /* UserPreferencesHelper.swift */; };
+		E629D6631EB04E2600333F03 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D65B1EB04E2600333F03 /* AboutController.swift */; };
+		E629D6641EB04E2600333F03 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D65C1EB04E2600333F03 /* ContactViewController.swift */; };
+		E629D6651EB04E2600333F03 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D65D1EB04E2600333F03 /* FacebookViewController.swift */; };
+		E629D6661EB04E2600333F03 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D65E1EB04E2600333F03 /* HomeController.swift */; };
+		E629D6671EB04E2600333F03 /* LanguageListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D65F1EB04E2600333F03 /* LanguageListViewController.swift */; };
+		E629D6681EB04E2600333F03 /* LinkedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6601EB04E2600333F03 /* LinkedInViewController.swift */; };
+		E629D6691EB04E2600333F03 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6611EB04E2600333F03 /* TabBarController.swift */; };
+		E629D66A1EB04E2600333F03 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6621EB04E2600333F03 /* InfoViewController.swift */; };
+		E629D66C1EB04E3100333F03 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D66B1EB04E3100333F03 /* Language.swift */; };
+		E629D66F1EB04EEB00333F03 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E629D6711EB04EEB00333F03 /* Localizable.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9166AB6D1EADB68700F5C8CB /* CareerCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareerCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9166AB701EADB68800F5C8CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9166AB721EADB68800F5C8CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9166AB751EADB68800F5C8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9166AB781EADB68800F5C8CB /* CareerCoach.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CareerCoach.xcdatamodel; sourceTree = "<group>"; };
 		9166AB7A1EADB68800F5C8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9166AB7D1EADB68800F5C8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9166AB7F1EADB68800F5C8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E629D6511EB04DF300333F03 /* LanguageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageService.swift; sourceTree = "<group>"; };
+		E629D6531EB04E0E00333F03 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E629D6541EB04E0E00333F03 /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		E629D6551EB04E0E00333F03 /* LocalizableStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		E629D6561EB04E0E00333F03 /* UserPreferencesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferencesHelper.swift; sourceTree = "<group>"; };
+		E629D65B1EB04E2600333F03 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		E629D65C1EB04E2600333F03 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		E629D65D1EB04E2600333F03 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		E629D65E1EB04E2600333F03 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E629D65F1EB04E2600333F03 /* LanguageListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageListViewController.swift; sourceTree = "<group>"; };
+		E629D6601EB04E2600333F03 /* LinkedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInViewController.swift; sourceTree = "<group>"; };
+		E629D6611EB04E2600333F03 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E629D6621EB04E2600333F03 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E629D66B1EB04E3100333F03 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		E629D6701EB04EEB00333F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D6721EB04F0F00333F03 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D6731EB04F1700333F03 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D6741EB04F2100333F03 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.plist"; sourceTree = "<group>"; };
+		E629D6751EB04F2900333F03 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D6761EB04F3300333F03 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = nl; path = nl.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D6771EB04F3E00333F03 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-PT"; path = "pt-PT.lproj/Localizable.plist"; sourceTree = "<group>"; };
+		E629D6781EB04F4F00333F03 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = da; path = da.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D6791EB04F5A00333F03 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D67A1EB04F6600333F03 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E629D67B1EB04F6F00333F03 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ar; path = ar.lproj/Localizable.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +94,12 @@
 		9166AB6F1EADB68700F5C8CB /* CareerCoach */ = {
 			isa = PBXGroup;
 			children = (
+				E629D6501EB04DDB00333F03 /* Resources */,
+				E629D64C1EB04DAC00333F03 /* ViewControllers */,
+				E629D64B1EB04D9A00333F03 /* Models */,
+				E629D64F1EB04DD000333F03 /* Services */,
+				E629D64E1EB04DC300333F03 /* Utilities */,
 				9166AB701EADB68800F5C8CB /* AppDelegate.swift */,
-				9166AB721EADB68800F5C8CB /* ViewController.swift */,
 				9166AB741EADB68800F5C8CB /* Main.storyboard */,
 				9166AB7A1EADB68800F5C8CB /* Assets.xcassets */,
 				9166AB7C1EADB68800F5C8CB /* LaunchScreen.storyboard */,
@@ -65,6 +107,56 @@
 				9166AB771EADB68800F5C8CB /* CareerCoach.xcdatamodeld */,
 			);
 			path = CareerCoach;
+			sourceTree = "<group>";
+		};
+		E629D64B1EB04D9A00333F03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E629D66B1EB04E3100333F03 /* Language.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E629D64C1EB04DAC00333F03 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E629D65B1EB04E2600333F03 /* AboutController.swift */,
+				E629D65C1EB04E2600333F03 /* ContactViewController.swift */,
+				E629D65D1EB04E2600333F03 /* FacebookViewController.swift */,
+				E629D65E1EB04E2600333F03 /* HomeController.swift */,
+				E629D65F1EB04E2600333F03 /* LanguageListViewController.swift */,
+				E629D6601EB04E2600333F03 /* LinkedInViewController.swift */,
+				E629D6611EB04E2600333F03 /* TabBarController.swift */,
+				E629D6621EB04E2600333F03 /* InfoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E629D64E1EB04DC300333F03 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E629D6531EB04E0E00333F03 /* Constants.swift */,
+				E629D6541EB04E0E00333F03 /* GlobalFunctions.swift */,
+				E629D6551EB04E0E00333F03 /* LocalizableStrings.swift */,
+				E629D6561EB04E0E00333F03 /* UserPreferencesHelper.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E629D64F1EB04DD000333F03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E629D6511EB04DF300333F03 /* LanguageService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E629D6501EB04DDB00333F03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E629D6711EB04EEB00333F03 /* Localizable.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +202,16 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				de,
+				"zh-Hans",
+				es,
+				nl,
+				"pt-PT",
+				da,
+				ru,
+				pl,
+				ar,
 			);
 			mainGroup = 9166AB641EADB68700F5C8CB;
 			productRefGroup = 9166AB6E1EADB68700F5C8CB /* Products */;
@@ -127,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9166AB7E1EADB68800F5C8CB /* LaunchScreen.storyboard in Resources */,
+				E629D66F1EB04EEB00333F03 /* Localizable.plist in Resources */,
 				9166AB7B1EADB68800F5C8CB /* Assets.xcassets in Resources */,
 				9166AB761EADB68800F5C8CB /* Main.storyboard in Resources */,
 			);
@@ -139,9 +242,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9166AB731EADB68800F5C8CB /* ViewController.swift in Sources */,
+				E629D6571EB04E0E00333F03 /* Constants.swift in Sources */,
+				E629D6671EB04E2600333F03 /* LanguageListViewController.swift in Sources */,
+				E629D6691EB04E2600333F03 /* TabBarController.swift in Sources */,
+				E629D6591EB04E0E00333F03 /* LocalizableStrings.swift in Sources */,
+				E629D6651EB04E2600333F03 /* FacebookViewController.swift in Sources */,
+				E629D6581EB04E0E00333F03 /* GlobalFunctions.swift in Sources */,
+				E629D6521EB04DF300333F03 /* LanguageService.swift in Sources */,
+				E629D66C1EB04E3100333F03 /* Language.swift in Sources */,
 				9166AB791EADB68800F5C8CB /* CareerCoach.xcdatamodeld in Sources */,
 				9166AB711EADB68800F5C8CB /* AppDelegate.swift in Sources */,
+				E629D6661EB04E2600333F03 /* HomeController.swift in Sources */,
+				E629D6681EB04E2600333F03 /* LinkedInViewController.swift in Sources */,
+				E629D65A1EB04E0E00333F03 /* UserPreferencesHelper.swift in Sources */,
+				E629D6631EB04E2600333F03 /* AboutController.swift in Sources */,
+				E629D66A1EB04E2600333F03 /* InfoViewController.swift in Sources */,
+				E629D6641EB04E2600333F03 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +280,24 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		E629D6711EB04EEB00333F03 /* Localizable.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E629D6701EB04EEB00333F03 /* en */,
+				E629D6721EB04F0F00333F03 /* fr */,
+				E629D6731EB04F1700333F03 /* de */,
+				E629D6741EB04F2100333F03 /* zh-Hans */,
+				E629D6751EB04F2900333F03 /* es */,
+				E629D6761EB04F3300333F03 /* nl */,
+				E629D6771EB04F3E00333F03 /* pt-PT */,
+				E629D6781EB04F4F00333F03 /* da */,
+				E629D6791EB04F5A00333F03 /* ru */,
+				E629D67A1EB04F6600333F03 /* pl */,
+				E629D67B1EB04F6F00333F03 /* ar */,
+			);
+			name = Localizable.plist;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -171,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -208,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -222,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -253,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -305,6 +441,7 @@
 				9166AB841EADB68800F5C8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

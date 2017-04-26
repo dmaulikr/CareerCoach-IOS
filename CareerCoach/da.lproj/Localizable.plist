@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>AppInfo</key><dict><key>value</key><string>TMA-kompetencebibliotek: en gratis TMA-liste over 53 kompetencer til ikke-kommerciel brug inden for din virksomhed.</string></dict>
+    <key>Email</key><dict><key>value</key><string>E-mail</string></dict>
+    <key>FollowUsOn</key><dict><key>value</key><string>Følg os på</string></dict>
+    <key>Linkedin</key><dict><key>value</key><string>LinkedIn</string></dict>
+    <key>Phone</key><dict><key>value</key><string>Telefon</string></dict>
+    <key>TMAMethode</key><dict><key>value</key><string>TMA-metode</string></dict>
+    <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+    <key>Website</key><dict><key>value</key><string>Hjemmeside</string></dict>
+    <key>action_settings</key><dict><key>value</key><string>Indstillinger</string></dict>
+    <key>app_name</key><dict><key>value</key><string>TMA-kompetencebibliotek</string></dict>
+    <key>btnCareerAdvice</key><dict><key>value</key><string>Karriereråd</string></dict>
+    <key>btnCompetencyLibrary</key><dict><key>value</key><string>TMA-kompetencebibliotek</string></dict>
+    <key>btnJobFinder</key><dict><key>value</key><string>Find Job!</string></dict>
+    <key>btn_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+    <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+    <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+    <key>btn_linkedin</key><dict><key>value</key><string>LinkedIn</string></dict>
+    <key>btn_media</key><dict><key>value</key><string>Medier</string></dict>
+    <key>changeLanguage</key><dict><key>value</key><string>Skift sprog</string></dict>
+    <key>contactText</key><dict><key>value</key><string>Hvert år hjælper TMA-metoden mere end 75,000 mennesker med at udvikle deres talenter og giver dem ny indsigt i deres karriere ved at fatte deres talenter og færdigheder.
+        
+        TMA-metoden er et integreret system til udvælgelse, udvikling og coaching som er oprettet i Holland og oversat til 10 sprog.
+        
+        TMA-metoden er et integreret system til vurdering, administrering og udvikling af talenter, samt til talent management, karriererådgivning, kompetencemanagement og 360 graders feedback for både teams og enkeltpersoner.
+    </string></dict>
+    <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+    <key>title_activity_careerAdvice</key><dict><key>value</key><string>Karriereråd</string></dict>
+    <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Kompetencebibliotek</string></dict>
+    <key>title_activity_contact</key><dict><key>value</key><string>Kontakt</string></dict>
+    <key>title_activity_facebook</key><dict><key>value</key><string>@string/btn_facebook</string></dict>
+    <key>title_activity_jobFinder</key><dict><key>value</key><string>Find Job!</string></dict>
+    <key>title_activity_maps</key><dict><key>value</key><string>Kort</string></dict>
+    <key>title_activity_media</key><dict><key>value</key><string>Medier</string></dict>
+</dict>
+</plist>

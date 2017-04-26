@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>AppInfo</key><dict><key>value</key><string>Biblioteca de Competências TMA: Livre para usar a lista de competências TMA com 53 competências para uso não comercial dentro de sua empresa.</string></dict>
+    <key>Email</key><dict><key>value</key><string>Email</string></dict>
+    <key>FollowUsOn</key><dict><key>value</key><string>Siga-nos no</string></dict>
+    <key>Linkedin</key><dict><key>value</key><string>LinkedIn</string></dict>
+    <key>Phone</key><dict><key>value</key><string>Telefone</string></dict>
+    <key>TMAMethode</key><dict><key>value</key><string>Método TMA</string></dict>
+    <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+    <key>Website</key><dict><key>value</key><string>Website</string></dict>
+    <key>action_settings</key><dict><key>value</key><string>Configurações</string></dict>
+    <key>app_name</key><dict><key>value</key><string>Biblioteca de Competências</string></dict>
+    <key>btnCareerAdvice</key><dict><key>value</key><string>Aconselhamento de Carreira</string></dict>
+    <key>btnCompetencyLibrary</key><dict><key>value</key><string>Biblioteca de Competências TMA</string></dict>
+    <key>btnJobFinder</key><dict><key>value</key><string>Encontre um emprego!</string></dict>
+    <key>btn_contact</key><dict><key>value</key><string>Contato</string></dict>
+    <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+    <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+    <key>btn_linkedin</key><dict><key>value</key><string>LinkedIn</string></dict>
+    <key>btn_media</key><dict><key>value</key><string>Mídia</string></dict>
+    <key>changeLanguage</key><dict><key>value</key><string>Mudar idioma</string></dict>
+    <key>contactText</key><dict><key>value</key><string>Em uma base anual, o Método TMA ajuda mais de 75.000 pessoas a desenvolver seus talentos e lhes dá uma nova visão de suas carreiras, compreendendo seus talentos e habilidades.
+        
+        O Método TMA é um sistema integrado para seleção, desenvolvimento e coaching e é publicado na Holanda em 10 idiomas.
+        
+        O Método TMA é um sistema integrado para avaliar, controlar e desenvolver talentos, gestão de talentos, aconselhamento de carreira, gestão de competências e feedback 360 graus. Tanto para equipes como para indivíduos.</string></dict>
+    <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+    <key>title_activity_careerAdvice</key><dict><key>value</key><string>Aconselhamento de Carreira</string></dict>
+    <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Biblioteca de Competências</string></dict>
+    <key>title_activity_contact</key><dict><key>value</key><string>Contato</string></dict>
+    <key>title_activity_facebook</key><dict><key>value</key><string>@string/btn_facebook</string></dict>
+    <key>title_activity_jobFinder</key><dict><key>value</key><string>Encontre um emprego!</string></dict>
+    <key>title_activity_maps</key><dict><key>value</key><string>Mapa</string></dict>
+    <key>title_activity_media</key><dict><key>value</key><string>Mídia</string></dict>
+</dict>
+</plist>
