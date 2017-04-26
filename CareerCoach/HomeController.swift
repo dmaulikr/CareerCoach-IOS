@@ -10,25 +10,79 @@ import UIKit
 
 class HomeController: UIViewController {
 
-//    @IBOutlet weak var webView: UIWebView!
-//    @IBOutlet weak var webViewInstance: UIWebView!
+  
+    @IBOutlet weak var findJob: ButtonControl!
+    
+    @IBOutlet weak var competency: ButtonControl!
+    
+    @IBOutlet weak var careerAdvice: ButtonControl!
+    
+    
+    var languages :[Language] = LanguageService.getAllLanguages()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var url = "http://competencylibrary.com/";
+        findJob.setTitle("title_activity_jobFinder".localized, for: .normal)
+        careerAdvice.setTitle("title_activity_careerAdvice".localized, for: .normal)
+        competency.setTitle("title_activity_competencyLibrary".localized, for: .normal)
+        
+        navigationItem.title = "app_name".localized
+        
+        view.addBackground(imageName: "home_bg", contextMode: .scaleAspectFit)
+    }
+    
+    @IBAction func OpenCareerAdvice()
+    {
+        var url = "http://www.tmacareercoach.com/-/Home/GetCareerAdvice/?type=app&langId=";
+        
+        let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
+        
+       let language = languages.first { $0.culture == lang }
+        
+        url = url + String(describing: language?.languageId)
+        OpenWebView(url,"title_activity_careerAdvice".localized)
+    }
+    
+    @IBAction func OpenCompetency()
+    {
+        var url = "http://competencylibrary.com?lang=";
         
         let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
         
         let index = lang.index(lang.startIndex, offsetBy: 2)
         
-        url = url + "?lang=" + lang.substring(to: index)
+        url = url  + lang.substring(to: index)
         
-        navigationItem.title = "app_name".localized
+        OpenWebView(url,"title_activity_competencyLibrary".localized)
+    }
+    
+    @IBAction func OpenJobFinder()
+    {
+        var url = "http://www.tmajobfinder.com?type=app&langId=2";
         
-//        webView.loadRequest(NSURLRequest(url: NSURL(string: url)! as URL) as URLRequest)
+        let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
+        
+        let language = languages.first { $0.culture == lang }
+        
+        url = url + String(describing: language?.languageId)
+        
+        OpenWebView(url,"title_activity_jobFinder".localized)
     }
 
+    func OpenWebView(_ url:  String, _ title: String)
+    {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
+        
+        controller.urlToNavigate = url;
+        controller.title = title;
+        
+        self.navigationController?.pushViewController(controller, animated: false)
+        //self.present(controller, animated: false, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

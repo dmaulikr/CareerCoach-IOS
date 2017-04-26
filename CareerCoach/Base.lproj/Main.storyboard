@@ -61,7 +61,99 @@
                     <view key="view" contentMode="scaleToFill" id="cv7-Lq-XPM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TMA Icon" translatesAutoresizingMaskIntoConstraints="NO" id="mhb-W5-gO2">
+                                <rect key="frame" x="127" y="72" width="120" height="64"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="yop-27-jMk"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="dbe-a7-JJd">
+                                <rect key="frame" x="46" y="144" width="283" height="466"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAQ-wz-aJo">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YM1-zN-H5T" customClass="ButtonControl" customModule="CareerCoach" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <state key="normal" title="Button"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="OpenJobFinder" destination="5Vu-er-iJg" eventType="touchUpInside" id="hwC-Bu-njb"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-hr-RdF">
+                                                <rect key="frame" x="120" y="0.0" width="43" height="120"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvC-JO-z3g" customClass="ButtonControl" customModule="CareerCoach" customModuleProvider="target">
+                                                <rect key="frame" x="163" y="0.0" width="120" height="120"/>
+                                                <state key="normal" title="Button"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="OpenCompetency" destination="5Vu-er-iJg" eventType="touchUpInside" id="LkK-hr-Bgz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="dQ8-na-ASn"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enw-A2-d3S">
+                                        <rect key="frame" x="0.0" y="125" width="283" height="120"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWl-Jx-bIL">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="120"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oc-6r-DJW" customClass="ButtonControl" customModule="CareerCoach" customModuleProvider="target">
+                                                <rect key="frame" x="81.5" y="0.0" width="120" height="120"/>
+                                                <state key="normal" title="Button"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="index">
+                                                        <integer key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="OpenCareerAdvice" destination="5Vu-er-iJg" eventType="touchUpInside" id="HRi-Ib-dGi"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqd-U6-IIy">
+                                                <rect key="frame" x="201.5" y="0.0" width="81.5" height="120"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="3Oc-6r-DJW" firstAttribute="centerX" secondItem="enw-A2-d3S" secondAttribute="centerX" id="Hud-qg-3QT"/>
+                                            <constraint firstAttribute="height" constant="120" id="ive-kU-gFS"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FYT-Kw-9wI">
+                                        <rect key="frame" x="0.0" y="250" width="283" height="216"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dbe-a7-JJd" firstAttribute="leading" secondItem="cv7-Lq-XPM" secondAttribute="leadingMargin" constant="30" id="9SJ-ae-VTn"/>
+                            <constraint firstItem="Ic5-9E-Fel" firstAttribute="top" secondItem="dbe-a7-JJd" secondAttribute="bottom" constant="8" symbolic="YES" id="Bl5-JE-NLa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dbe-a7-JJd" secondAttribute="trailing" constant="30" id="H6L-B9-5YM"/>
+                            <constraint firstItem="mhb-W5-gO2" firstAttribute="top" secondItem="rYp-SI-31B" secondAttribute="bottom" constant="8" symbolic="YES" id="IFk-RE-Opg"/>
+                            <constraint firstItem="dbe-a7-JJd" firstAttribute="top" secondItem="rYp-SI-31B" secondAttribute="bottom" constant="80" id="Nvs-Oo-axC"/>
+                            <constraint firstItem="dbe-a7-JJd" firstAttribute="top" secondItem="mhb-W5-gO2" secondAttribute="bottom" constant="8" symbolic="YES" id="Tb0-A4-V7Y"/>
+                            <constraint firstItem="mhb-W5-gO2" firstAttribute="centerX" secondItem="dbe-a7-JJd" secondAttribute="centerX" id="dp0-AX-GXp"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RtL-o2-alF">
                         <barButtonItem key="rightBarButtonItem" image="icon_settings" id="SDz-Z6-nei">
@@ -72,10 +164,63 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="careerAdvice" destination="3Oc-6r-DJW" id="E5q-Cm-xhf"/>
+                        <outlet property="competency" destination="WvC-JO-z3g" id="YIZ-QG-Etl"/>
+                        <outlet property="findJob" destination="YM1-zN-H5T" id="rUO-Bx-2KY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fkk-z0-vGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="808.79999999999995" y="-1684.4077961019491"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="1hB-s1-JSX">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vGP-dZ-GGD" customClass="WebViewController" customModule="CareerCoach" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QzX-qE-AEs"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ujk-8n-Fbp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K7w-sa-Ss3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Azw-M3-CMD">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0OT-uH-U54">
+                                <rect key="frame" x="-2" y="20" width="379" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="KpJ-Br-zue">
+                                <rect key="frame" x="177" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ujk-8n-Fbp" firstAttribute="top" secondItem="Azw-M3-CMD" secondAttribute="bottom" id="3H6-ny-Icl"/>
+                            <constraint firstItem="Azw-M3-CMD" firstAttribute="top" secondItem="QzX-qE-AEs" secondAttribute="bottom" id="3vT-nS-5Lm"/>
+                            <constraint firstItem="0OT-uH-U54" firstAttribute="top" secondItem="QzX-qE-AEs" secondAttribute="bottom" id="9JG-Td-LW6"/>
+                            <constraint firstItem="Azw-M3-CMD" firstAttribute="leading" secondItem="K7w-sa-Ss3" secondAttribute="leadingMargin" id="EEh-aS-EOD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0OT-uH-U54" secondAttribute="trailing" constant="-18" id="KCL-RL-V11"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Azw-M3-CMD" secondAttribute="trailing" id="P7l-4L-jXQ"/>
+                            <constraint firstItem="0OT-uH-U54" firstAttribute="leading" secondItem="K7w-sa-Ss3" secondAttribute="leadingMargin" constant="-18" id="QDT-OS-Se1"/>
+                            <constraint firstItem="Ujk-8n-Fbp" firstAttribute="top" secondItem="0OT-uH-U54" secondAttribute="bottom" id="aZB-pb-bUf"/>
+                            <constraint firstItem="KpJ-Br-zue" firstAttribute="centerY" secondItem="K7w-sa-Ss3" secondAttribute="centerY" id="oQF-gB-YB4"/>
+                            <constraint firstItem="KpJ-Br-zue" firstAttribute="centerX" secondItem="K7w-sa-Ss3" secondAttribute="centerX" id="yD3-pR-k9b"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activity" destination="KpJ-Br-zue" id="DXB-5O-qJ5"/>
+                        <outlet property="webView" destination="Azw-M3-CMD" id="jnW-Ms-JOD"/>
+                        <outlet property="webViewInstance" destination="0OT-uH-U54" id="ice-ez-Lew"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LsE-TF-Bgo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1707" y="-1682"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VFS-Bk-edc">
