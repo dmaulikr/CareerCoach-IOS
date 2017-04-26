@@ -26,7 +26,6 @@
 		E629D6691EB04E2600333F03 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6611EB04E2600333F03 /* TabBarController.swift */; };
 		E629D66A1EB04E2600333F03 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6621EB04E2600333F03 /* InfoViewController.swift */; };
 		E629D66C1EB04E3100333F03 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D66B1EB04E3100333F03 /* Language.swift */; };
-		E629D66F1EB04EEB00333F03 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E629D6711EB04EEB00333F03 /* Localizable.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,17 +50,6 @@
 		E629D6611EB04E2600333F03 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E629D6621EB04E2600333F03 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		E629D66B1EB04E3100333F03 /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
-		E629D6701EB04EEB00333F03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D6721EB04F0F00333F03 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D6731EB04F1700333F03 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D6741EB04F2100333F03 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.plist"; sourceTree = "<group>"; };
-		E629D6751EB04F2900333F03 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D6761EB04F3300333F03 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = nl; path = nl.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D6771EB04F3E00333F03 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pt-PT"; path = "pt-PT.lproj/Localizable.plist"; sourceTree = "<group>"; };
-		E629D6781EB04F4F00333F03 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = da; path = da.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D6791EB04F5A00333F03 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D67A1EB04F6600333F03 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/Localizable.plist; sourceTree = "<group>"; };
-		E629D67B1EB04F6F00333F03 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ar; path = ar.lproj/Localizable.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +142,6 @@
 		E629D6501EB04DDB00333F03 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E629D6711EB04EEB00333F03 /* Localizable.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -229,7 +216,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9166AB7E1EADB68800F5C8CB /* LaunchScreen.storyboard in Resources */,
-				E629D66F1EB04EEB00333F03 /* Localizable.plist in Resources */,
 				9166AB7B1EADB68800F5C8CB /* Assets.xcassets in Resources */,
 				9166AB761EADB68800F5C8CB /* Main.storyboard in Resources */,
 			);
@@ -278,24 +264,6 @@
 				9166AB7D1EADB68800F5C8CB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E629D6711EB04EEB00333F03 /* Localizable.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E629D6701EB04EEB00333F03 /* en */,
-				E629D6721EB04F0F00333F03 /* fr */,
-				E629D6731EB04F1700333F03 /* de */,
-				E629D6741EB04F2100333F03 /* zh-Hans */,
-				E629D6751EB04F2900333F03 /* es */,
-				E629D6761EB04F3300333F03 /* nl */,
-				E629D6771EB04F3E00333F03 /* pt-PT */,
-				E629D6781EB04F4F00333F03 /* da */,
-				E629D6791EB04F5A00333F03 /* ru */,
-				E629D67A1EB04F6600333F03 /* pl */,
-				E629D67B1EB04F6F00333F03 /* ar */,
-			);
-			name = Localizable.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
