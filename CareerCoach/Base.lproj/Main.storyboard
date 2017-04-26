@@ -26,17 +26,23 @@
                                 <rect key="frame" x="16" y="20" width="343" height="598"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Rwd-db-wpK">
+                                <rect key="frame" x="177" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="sAt-eD-p5L" secondAttribute="trailing" id="3SY-ds-Z8d"/>
                             <constraint firstItem="sAt-eD-p5L" firstAttribute="top" secondItem="PSs-P7-CSw" secondAttribute="bottom" id="NV0-Sp-yi3"/>
+                            <constraint firstItem="Rwd-db-wpK" firstAttribute="centerX" secondItem="Y5f-PO-cTv" secondAttribute="centerX" id="UbI-3X-bdx"/>
                             <constraint firstItem="BRA-Ha-Eni" firstAttribute="top" secondItem="sAt-eD-p5L" secondAttribute="bottom" id="cKB-jb-kR7"/>
                             <constraint firstItem="sAt-eD-p5L" firstAttribute="leading" secondItem="Y5f-PO-cTv" secondAttribute="leadingMargin" id="fmi-BG-3SI"/>
+                            <constraint firstItem="Rwd-db-wpK" firstAttribute="centerY" secondItem="Y5f-PO-cTv" secondAttribute="centerY" id="uG1-kk-l0G"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="facebook_icon" selectedImage="facebook_icon" id="Kzg-C3-6Q5"/>
                     <connections>
+                        <outlet property="activity" destination="Rwd-db-wpK" id="nlh-Os-Ol3"/>
                         <outlet property="webViewInstance" destination="sAt-eD-p5L" id="2if-Sl-SBd"/>
                     </connections>
                 </viewController>
@@ -108,6 +114,9 @@
                                 <rect key="frame" x="16" y="20" width="343" height="598"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Joa-6R-6jG">
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -115,10 +124,13 @@
                             <constraint firstItem="Hdj-vR-AjE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="L2h-gD-ihZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hdj-vR-AjE" secondAttribute="bottom" id="MAm-5k-qyA"/>
                             <constraint firstItem="Hdj-vR-AjE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YY8-iZ-DXk"/>
+                            <constraint firstItem="Joa-6R-6jG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="v54-5v-Xei"/>
+                            <constraint firstItem="Joa-6R-6jG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vDm-zb-2CX"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="linkedin" selectedImage="linkedin" id="Owg-AT-mcy"/>
                     <connections>
+                        <outlet property="activity" destination="Joa-6R-6jG" id="ks3-Lx-WIg"/>
                         <outlet property="webViewInstance" destination="Hdj-vR-AjE" id="hrZ-Un-VRK"/>
                     </connections>
                 </viewController>

@@ -27,6 +27,7 @@
 		E629D66A1EB04E2600333F03 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D6621EB04E2600333F03 /* InfoViewController.swift */; };
 		E629D66C1EB04E3100333F03 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D66B1EB04E3100333F03 /* Language.swift */; };
 		E6D3B0B11EB07F780013A5F6 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6D3B0AF1EB07F780013A5F6 /* Localizable.plist */; };
+		E6D3B0BE1EB081200013A5F6 /* ButtonControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3B0BD1EB081200013A5F6 /* ButtonControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		E6D3B0B91EB07F910013A5F6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/Localizable.plist; sourceTree = "<group>"; };
 		E6D3B0BA1EB07F940013A5F6 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/Localizable.plist; sourceTree = "<group>"; };
 		E6D3B0BB1EB07F960013A5F6 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ar; path = ar.lproj/Localizable.plist; sourceTree = "<group>"; };
+		E6D3B0BD1EB081200013A5F6 /* ButtonControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9166AB6F1EADB68700F5C8CB /* CareerCoach */ = {
 			isa = PBXGroup;
 			children = (
+				E6D3B0BC1EB080D30013A5F6 /* Controls */,
 				E629D6501EB04DDB00333F03 /* Resources */,
 				E629D64C1EB04DAC00333F03 /* ViewControllers */,
 				E629D64B1EB04D9A00333F03 /* Models */,
@@ -157,6 +160,14 @@
 				E6D3B0AF1EB07F780013A5F6 /* Localizable.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6D3B0BC1EB080D30013A5F6 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E6D3B0BD1EB081200013A5F6 /* ButtonControl.swift */,
+			);
+			name = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				E629D6651EB04E2600333F03 /* FacebookViewController.swift in Sources */,
 				E629D6581EB04E0E00333F03 /* GlobalFunctions.swift in Sources */,
 				E629D6521EB04DF300333F03 /* LanguageService.swift in Sources */,
+				E6D3B0BE1EB081200013A5F6 /* ButtonControl.swift in Sources */,
 				E629D66C1EB04E3100333F03 /* Language.swift in Sources */,
 				9166AB791EADB68800F5C8CB /* CareerCoach.xcdatamodeld in Sources */,
 				9166AB711EADB68800F5C8CB /* AppDelegate.swift in Sources */,

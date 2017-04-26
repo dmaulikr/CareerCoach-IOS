@@ -8,8 +8,10 @@
 
 import UIKit
 
-class FacebookViewController: UIViewController {
+class FacebookViewController: UIViewController, UIWebViewDelegate {
 
+    
+    @IBOutlet weak var activity: UIActivityIndicatorView!
    
     @IBOutlet weak var webViewInstance: UIWebView!
     
@@ -17,6 +19,8 @@ class FacebookViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        webViewInstance.delegate = self
+        
         webViewInstance.loadRequest(NSURLRequest(url: NSURL(string: "https://www.facebook.com/pg/tmamethode/events/")! as URL) as URLRequest)
 
     }
@@ -26,6 +30,22 @@ class FacebookViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func webViewDidStartLoad(_ webView: UIWebView){
+        // here show your indicator
+        activity.startAnimating()
+        activity.isHidden = false;
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        // here hide it
+        activity.stopAnimating()
+        activity.isHidden = true;
+    }
+    
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error)
+    {
+        
+    }
 
     /*
     // MARK: - Navigation
