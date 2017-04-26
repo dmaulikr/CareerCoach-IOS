@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.plist
+   CareerCoach
+
+   Created by Puneet Gupta on 25/04/17.
+   Copyright (c) 2017 TMA. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Address</key><dict><key>value</key><string>Endereço</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>Coach de Carreira TMA: consultor de emprego e carreira no seu telefone! Ao procurar um emprego, existe um fator decisivo comum: trata-se de profissões e empregos. Você pode agora buscar facilmente todas as vagas e ter consultoria de carreira de graça com a ajuda dos maiores mecanismos de busca de trabalho do mundo. Nós pesquisamos milhares de sites de trabalho e anúncios de emprego das empresas para que você não precise fazer isso. Procurando por um novo emprego? O Coach de Carreira TMA fornece-lhe informações sobre mais de 5.000 ocupações mais comuns e dá acesso (ou informação sobre) as competências necessárias e exigências das vagas e, em seguida, o redireciona para vagas interessantes em sua cidade! O que você está esperando? É de graça!</string></dict>
+        <key>Email</key><dict><key>value</key><string>Email</string></dict>
+        <key>FollowUsOn</key><dict><key>value</key><string>Siga-nos no</string></dict>
+        <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>Phone</key><dict><key>value</key><string>Telefone</string></dict>
+        <key>TMAMethode</key><dict><key>value</key><string>Método TMA</string></dict>
+        <key>Twitter</key><dict><key>value</key><string>Twitter</string></dict>
+        <key>Website</key><dict><key>value</key><string>Website</string></dict>
+        <key>action_settings</key><dict><key>value</key><string>Configurações</string></dict>
+        <key>app_name</key><dict><key>value</key><string>Consultor de Carreira</string></dict>
+        <key>btnCareerAdvice</key><dict><key>value</key><string>Aconselhamento de Carreira</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Biblioteca de Competências</string></dict>
+        <key>btnJobFinder</key><dict><key>value</key><string>Encontre um emprego!</string></dict>
+        <key>btn_contact</key><dict><key>value</key><string>Contato</string></dict>
+        <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
+        <key>btn_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
+        <key>btn_media</key><dict><key>value</key><string>Mídia</string></dict>
+        <key>changeLanguage</key><dict><key>value</key><string>Mudar idioma</string></dict>
+        <key>contactText</key><dict><key>value</key><string>O Método TMA é um sistema integrado para a seleção e desenvolvimento de funcionários, onde talentos e habilidades são a chave. O Método TMA é oferecido como um serviço on-line e usado para a gestão de competência e de talentos, feedback 360 graus, para estabelecer centros de carreira, avaliações, avaliação de Talento TMA, trajetórias MD, problemas de mobilidade, discussões, entrevistas de carreira e de emprego.</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>Aconselhamento de Carreira</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Biblioteca de Competências</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>Contato</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>Encontre um emprego!</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>Mapa</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>Mídia</string></dict>
+        <key>Store info</key><dict><key>value</key><string>Encontre seus melhores conselhos de carreira e empregos em tempo real</string></dict>
+    </dict>
+</plist>
