@@ -40,7 +40,7 @@ class HomeController: UIViewController {
         
        let language = languages.first { $0.culture == lang }
         
-        url = url + String(describing: language?.languageId)
+        url = "http://www.tmacareercoach.com/-/Home/GetCareerAdvice/?type=app&langId=\(language?.languageId ?? 1)";
         OpenWebView(url,"title_activity_careerAdvice".localized)
     }
     
@@ -59,14 +59,13 @@ class HomeController: UIViewController {
     
     @IBAction func OpenJobFinder()
     {
-        var url = "http://www.tmajobfinder.com?type=app&langId=2";
+        var url = "http://www.tmajobfinder.com?type=app&langId=";
         
         let lang = UserPreferencesHelper.getUserDefaultString(key: Constants.LOCALE_LANG)
         
         let language = languages.first { $0.culture == lang }
         
-        url = url + String(describing: language?.languageId)
-        
+        url = "http://www.tmajobfinder.com?type=app&langId=\(language?.languageId ?? 1)";
         OpenWebView(url,"title_activity_jobFinder".localized)
     }
 

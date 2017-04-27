@@ -16,8 +16,6 @@ class WebViewController: UIViewController, UIWebViewDelegate {
     
     @IBOutlet weak var webViewInstance: UIWebView!
     
-    @IBOutlet weak var webView: UIWebView!
-    
     public var urlToNavigate : String = "";
     
     public var navTitle : String = "";
