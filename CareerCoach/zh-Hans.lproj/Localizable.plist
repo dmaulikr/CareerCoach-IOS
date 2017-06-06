@@ -37,6 +37,6 @@
         <key>title_activity_jobFinder</key><dict><key>value</key><string></string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string></string></dict>
         <key>title_activity_media</key><dict><key>value</key><string></string></dict>
-        <key>Store info</key><dict><key>value</key><string></string></dict>    
+        <key>Store info</key><dict><key>value</key><string></string></dict>
     </dict>
 </plist>

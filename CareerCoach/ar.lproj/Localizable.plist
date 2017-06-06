@@ -37,7 +37,7 @@
         <key>title_activity_jobFinder</key><dict><key>value</key><string>تبحث عن وظيفة!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>خريطة</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>وسائل الاتصال</string></dict>
-        <key>Store info</key><dict><key>value</key><string></string></dict>
+        <key>Store_info</key><dict><key>value</key><string>البحث عن أفضل مشورة مهنية، وظائف في الوقت الحقيقي وأسئلة المقابلة الوظيفية.</string></dict>
 
     </dict>
 </plist>
