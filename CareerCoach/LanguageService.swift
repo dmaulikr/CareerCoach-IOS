@@ -24,8 +24,8 @@ class LanguageService
         languages.append(Language(languageId: 7, languageName: "Português", culture: "pt-PT"))
         languages.append(Language(languageId: 10, languageName: "العربية", culture: "ar"))
         languages.append(Language(languageId: 41, languageName: "Polish", culture: "pl"))
-        languages.append(Language(languageId: 43, languageName: "Русский", culture: "ru"))
-        languages.append(Language(languageId: 14, languageName: "Chinese (Simplified)", culture: "zh-Hans"))
+//        languages.append(Language(languageId: 43, languageName: "Русский", culture: "ru"))
+//        languages.append(Language(languageId: 14, languageName: "Chinese (Simplified)", culture: "zh-Hans"))
         return languages
     }
 }

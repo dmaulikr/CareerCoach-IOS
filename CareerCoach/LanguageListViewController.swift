@@ -59,4 +59,28 @@ class LanguageListViewController: UIViewController, UIPickerViewDataSource, UIPi
         //self.dismiss(animated: true)
     }
     
+    @IBAction func donePicker()
+    {
+        let row = picker.selectedRow(inComponent: 0)
+        
+        UserPreferencesHelper.setUserDefaultString(key: Constants.LOCALE_LANG, value: pickerDataSoruce[row].culture)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+        //self.parent?.navigationController?.pushViewController(controller, animated: false)
+        self.present(controller, animated: false, completion: nil)
+        //self.dismiss(animated: true)
+    }
+    
+    @IBAction func cancelPicker()
+    {
+        //        UserPreferencesHelper.setUserDefaultString(key: Constants.LOCALE_LANG, value: pickerDataSoruce[row].culture)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+        //self.parent?.navigationController?.pushViewController(controller, animated: false)
+        self.present(controller, animated: false, completion: nil)
+        //self.dismiss(animated: true)
+    }
+    
 }
