@@ -38,6 +38,9 @@
         <key>title_activity_jobFinder</key><dict><key>value</key><string>Vind Job!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>Kaart</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>Media</string></dict>
-        <key>Store info</key><dict><key>value</key><string></string></dict>
+        <key>Store_info</key><dict><key>value</key><string>Gratis loopbaanadvies, beschikbare vacatures en selectie interview vragen.</string></dict>
+        <key>Done</key><dict><key>value</key><string>Klaar</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>
+            Annuleer</string></dict>
     </dict>
 </plist>
