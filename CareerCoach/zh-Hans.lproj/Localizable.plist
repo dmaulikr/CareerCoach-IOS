@@ -29,14 +29,16 @@
         <key>btn_linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
         <key>btn_media</key><dict><key>value</key><string>媒体</string></dict>
         <key>changeLanguage</key><dict><key>value</key><string>改变语言</string></dict>
-        <key>contactText</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_app_info</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_careerAdvice</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_competencyLibrary</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_contact</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_jobFinder</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_maps</key><dict><key>value</key><string></string></dict>
-        <key>title_activity_media</key><dict><key>value</key><string></string></dict>
-        <key>Store info</key><dict><key>value</key><string></string></dict>
+        <key>contactText</key><dict><key>value</key><string>TMA方法是一个集成选择和发展员工的系统。人才和技能是关键。TMA方法提供在线服务，用于能力和人才管理，360度反馈，设置职业中心，评估，TMA Talent评估，发展方向，流动性问题，讨论，职业和工作面试。</string></dict>
+        <key>title_activity_app_info</key><dict><key>value</key><string>消息</string></dict>
+        <key>title_activity_careerAdvice</key><dict><key>value</key><string>职业建议</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>能力收藏</string></dict>
+        <key>title_activity_contact</key><dict><key>value</key><string>联系</string></dict>
+        <key>title_activity_jobFinder</key><dict><key>value</key><string>找到工作！</string></dict>
+        <key>title_activity_maps</key><dict><key>value</key><string>地图</string></dict>
+        <key>title_activity_media</key><dict><key>value</key><string>媒体</string></dict>
+        <key>Store_info</key><dict><key>value</key><string>找最好的职业建议，实时工作和面试问题。</string></dict>
+        <key>Done</key><dict><key>value</key><string>完成</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>取消</string></dict>
     </dict>
 </plist>

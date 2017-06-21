@@ -37,6 +37,8 @@
         <key>title_activity_jobFinder</key><dict><key>value</key><string>Encontre um emprego!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>Mapa</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>Mídia</string></dict>
-        <key>Store info</key><dict><key>value</key><string>Encontre seus melhores conselhos de carreira e empregos em tempo real</string></dict>
+        <key>Store_info</key><dict><key>value</key><string>Encontre seus melhores conselhos de carreira e empregos em tempo real</string></dict>
+        <key>Done</key><dict><key>value</key><string>Pronto</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>Cancelar</string></dict>
     </dict>
 </plist>

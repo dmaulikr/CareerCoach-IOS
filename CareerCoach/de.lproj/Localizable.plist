@@ -10,7 +10,7 @@
 <plist version="1.0">
     <dict>
         <key>Address</key><dict><key>value</key><string>Addresse</string></dict>
-        <key>AppInfo</key><dict><key>value</key><string>TMA Career Coach: ein Karriereberater auf Ihrem Handy! n n Bei der Suche nach einem Job gibt es einen entscheidenden Faktor: es geht um Berufe und Jobs. Sie können jetzt einfach alle Jobs suchen und kostenlose Karriereberatung erhalten mit Hilfe der größten Job-Suchmaschinen in der Welt. Wir recherchieren auf Tausenden von Karrierewebseiten und Jobbörsen von Unternehmen, so dass Sie nicht brauchen, das zu tun. n Suchen Sie einen neuen Job? Der TMA Career Coach berät Sie an 5000+ häufigsten Berufen, bietet Ihnen Zugriff auf (oder Informationen über) notwendige Kompetenzen und Job-Anforderungen und zeigt interessante Jobs in Ihrer Heimatstadt! Worauf warten Sie? Es ist kostenlos!</string></dict>
+        <key>AppInfo</key><dict><key>value</key><string>TMA Career Coach: ein Karriereberater auf Ihrem Handy! Bei der Suche nach einem Job gibt es einen entscheidenden Faktor: es geht um Berufe und Jobs. Sie können jetzt einfach alle Jobs suchen und kostenlose Karriereberatung erhalten mit Hilfe der größten Job-Suchmaschinen in der Welt. Wir recherchieren auf Tausenden von Karrierewebseiten und Jobbörsen von Unternehmen, so dass Sie nicht brauchen, das zu tun. Suchen Sie einen neuen Job? Der TMA Career Coach berät Sie an 5000+ häufigsten Berufen, bietet Ihnen Zugriff auf (oder Informationen über) notwendige Kompetenzen und Job-Anforderungen und zeigt interessante Jobs in Ihrer Heimatstadt! Worauf warten Sie? Es ist kostenlos!</string></dict>
         <key>Email</key><dict><key>value</key><string>E-Mail</string></dict>
         <key>FollowUsOn</key><dict><key>value</key><string>Folgen Sie uns auf</string></dict>
         <key>Linkedin</key><dict><key>value</key><string>Linkedin</string></dict>
@@ -21,7 +21,7 @@
         <key>action_settings</key><dict><key>value</key><string>Einstellungen</string></dict>
         <key>app_name</key><dict><key>value</key><string>Career Coach</string></dict>
         <key>btnCareerAdvice</key><dict><key>value</key><string>Karriereberatung</string></dict>
-        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Kompetenzbibliothek</string></dict>
+        <key>btnCompetencyLibrary</key><dict><key>value</key><string>Kompetenzen</string></dict>
         <key>btnJobFinder</key><dict><key>value</key><string>Job finden!</string></dict>
         <key>btn_contact</key><dict><key>value</key><string>Kontakt</string></dict>
         <key>btn_facebook</key><dict><key>value</key><string>Facebook</string></dict>
@@ -32,11 +32,13 @@
         <key>contactText</key><dict><key>value</key><string>TMA Methode ist ein integriertes System für die Auswahl und Entwicklung der Mitarbeiter, indem Talente und Fähigkeiten von Bedeutung sind. TMA Methode wird als Online-Service angeboten und für Kompetenz- und Talentmanagement, 360-Grad-Feedback, Karrierencentren, Assessments, TMA Talent Assessment, MD-Trajektorien, Mobilitätsprobleme, Diskussionen, Karriere- und Bewerbungsgespräche eingesetzt.</string></dict>
         <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
         <key>title_activity_careerAdvice</key><dict><key>value</key><string>Karriereberatung</string></dict>
-        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Kompetenzbibliothek</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Kompetenzen</string></dict>
         <key>title_activity_contact</key><dict><key>value</key><string>Kontakt</string></dict>
         <key>title_activity_jobFinder</key><dict><key>value</key><string>Job finden!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>Map</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>Medien</string></dict>
-        <key>Store info</key><dict><key>value</key><string>Finden Sie Ihren besten Karriere-Rat und Echtzeit-Arbeitsplätze</string></dict>
+        <key>Store_info</key><dict><key>value</key><string>Finden Sie Ihren besten Karriere-Rat und Echtzeit-Arbeitsplätze</string></dict>
+        <key>Done</key><dict><key>value</key><string>Getan</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>Abbrechen</string></dict>
     </dict>
 </plist>

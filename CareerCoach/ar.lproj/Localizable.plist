@@ -38,6 +38,8 @@
         <key>title_activity_maps</key><dict><key>value</key><string>خريطة</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>وسائل الاتصال</string></dict>
         <key>Store_info</key><dict><key>value</key><string>البحث عن أفضل مشورة مهنية، وظائف في الوقت الحقيقي وأسئلة المقابلة الوظيفية.</string></dict>
+        <key>Done</key><dict><key>value</key><string>تم الانتهاء</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>إلغاء</string></dict>
 
     </dict>
 </plist>

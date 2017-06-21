@@ -33,11 +33,12 @@
         <key>contactText</key><dict><key>value</key><string>TMA-metode er et integreret system for udvælgelse og udvikling af medarbejdere hvor talenter og færdigheder er nøglebegreber. TMA-metode tilbydes som online service og bruges til kompetence- og talentmanagement, 360 graders feedback, oprettelse af karrierecentre, evalueringer, TMA-talentanalyser, MD baner, mobilitet, diskussioner, karriere- og jobsamtaler.</string></dict>
         <key>title_activity_app_info</key><dict><key>value</key><string>Info</string></dict>
         <key>title_activity_careerAdvice</key><dict><key>value</key><string>Karriereråd</string></dict>
-        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Kompetencebibliotek</string></dict>
+        <key>title_activity_competencyLibrary</key><dict><key>value</key><string>Kompetencer</string></dict>
         <key>title_activity_contact</key><dict><key>value</key><string>Kontakt</string></dict>
         <key>title_activity_jobFinder</key><dict><key>value</key><string>Find Job!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>Kort</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>Medier</string></dict>
         <key>Store_info</key><dict><key>value</key><string>Find dine bedste karriererådgivning, real time job og job interview spørgsmål.</string></dict>
-    </dict>
+        <key>Done</key><dict><key>value</key><string>Gjort</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>Fortryd</string></dict>    </dict>
 </plist>

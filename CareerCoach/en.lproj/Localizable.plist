@@ -38,6 +38,8 @@
         <key>title_activity_jobFinder</key><dict><key>value</key><string>Find Job!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>Map</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>Media</string></dict>
-        <key>Store info</key><dict><key>value</key><string>Find your best career advice, real time jobs and job interview questions.</string></dict>
+        <key>Store_info</key><dict><key>value</key><string>Find your best career advice, real time jobs and job interview questions.</string></dict>
+        <key>Done</key><dict><key>value</key><string>Done</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>Cancel</string></dict>
     </dict>
 </plist>

@@ -37,6 +37,8 @@
         <key>title_activity_jobFinder</key><dict><key>value</key><string>Найти работу!</string></dict>
         <key>title_activity_maps</key><dict><key>value</key><string>Карта</string></dict>
         <key>title_activity_media</key><dict><key>value</key><string>Медиа</string></dict>
-        <key>Store info</key><dict><key>value</key><string></string></dict>
+        <key>Store_info</key><dict><key>value</key><string>Получайте лучшие рекомендации по выбору карьеры, актуальные предложения по вакансиям и вопросы для собеседования. </string></dict>
+        <key>Done</key><dict><key>value</key><string>Готово</string></dict>
+        <key>Cancel</key><dict><key>value</key><string>Отмена</string></dict>
     </dict>
 </plist>
