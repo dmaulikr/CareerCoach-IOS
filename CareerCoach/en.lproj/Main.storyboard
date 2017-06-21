@@ -73,10 +73,10 @@
                                 <rect key="frame" x="46" y="144" width="283" height="466"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAQ-wz-aJo">
-                                        <rect key="frame" x="0.0" y="0.0" width="283" height="120"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="106.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YM1-zN-H5T" customClass="ButtonControl" customModule="CareerCoach" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="106.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -88,11 +88,11 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4G-hr-RdF">
-                                                <rect key="frame" x="120" y="0.0" width="43" height="120"/>
+                                                <rect key="frame" x="106.5" y="0.0" width="70" height="106.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvC-JO-z3g" customClass="ButtonControl" customModule="CareerCoach" customModuleProvider="target">
-                                                <rect key="frame" x="163" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="176.5" y="0.0" width="106.5" height="106.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -104,19 +104,16 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="120" id="dQ8-na-ASn"/>
-                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enw-A2-d3S">
-                                        <rect key="frame" x="0.0" y="125" width="283" height="120"/>
+                                        <rect key="frame" x="0.0" y="111.5" width="283" height="107"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWl-Jx-bIL">
-                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="88" height="107"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Oc-6r-DJW" customClass="ButtonControl" customModule="CareerCoach" customModuleProvider="target">
-                                                <rect key="frame" x="81.5" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="88" y="0.0" width="107" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="index">
@@ -128,17 +125,16 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqd-U6-IIy">
-                                                <rect key="frame" x="201.5" y="0.0" width="81.5" height="120"/>
+                                                <rect key="frame" x="195" y="0.0" width="88" height="107"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </view>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="3Oc-6r-DJW" firstAttribute="centerX" secondItem="enw-A2-d3S" secondAttribute="centerX" id="Hud-qg-3QT"/>
-                                            <constraint firstAttribute="height" constant="120" id="ive-kU-gFS"/>
+                                            <constraint firstItem="3Oc-6r-DJW" firstAttribute="centerX" secondItem="enw-A2-d3S" secondAttribute="centerX" id="0o4-Eq-9H0"/>
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FYT-Kw-9wI">
-                                        <rect key="frame" x="0.0" y="250" width="283" height="216"/>
+                                        <rect key="frame" x="0.0" y="223.5" width="283" height="242.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
